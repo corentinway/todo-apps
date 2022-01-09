@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TO-DO List</title>
+        <meta charset="utf-8" />
+        <style>
+            .item {
+                width: 200px;
+                margin-right: 20px;
+                display: inline-block;
+            }
+            li {
+                margin: 5px;
+            }
+            li > button {
+                font-size: smaller;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div>
+            <label for="item_input">Task</label>
+            <input id="item_input" type="text">
+            <button id="add" disabled>Ajouter</button>
+        </div>
+
+        <ul></ul>
+
+        <script src="app.js"></script>
+    </body>
+</html>
